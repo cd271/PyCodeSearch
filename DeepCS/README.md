@@ -14,6 +14,7 @@
 
  - `models`: neural network models for code/desc representation and similarity measure;
  - `output`: pretrained model example;
+ - `data`: download and unzip dataset from [Google Drive](https://drive.google.com/drive/folders/1GZYLT_lzhlVczXjD6dgwVUvDDPHMB6L7?usp=sharing);
  - `modules.py`: basic modules for model construction;
  - `train.py`: train and validate code/desc representation models; 
  - `repr_code.py`: encode code into vectors and store them to a file; 
@@ -21,15 +22,6 @@
  - `configs.py`: configurations for models defined in the `models` folder. Each function defines the hyper-parameters for the corresponding model;
  - `data_loader.py`: A PyTorch dataset loader;
  - `utils.py`: utilities for models and training;
-
-## Pretrained Model
-
-   A quick test with a pretrained model:
-
-   ```
-   python repr_code.py -t 202106140524 --reload_from 4000000
-   python search.py -t 202106140524 --reload_from 4000000
-   ```
 
 
 ## Usage
@@ -56,3 +48,14 @@
    ### Configuration
 
    Edit hyper-parameters and settings in `config.py`
+
+## Quick test
+
+   A quick test with a pretrained model:
+
+   ```
+python repr_code.py -t 202306290524 --reload_from 4000000
+python search.py -t 202306290524 --reload_from 4000000
+   ```
+
+   Note: pretrained model should be put in `./output/JointEmbeder/github/202306290524/models/`, which can not be uploaded to GitHub because of the file size.

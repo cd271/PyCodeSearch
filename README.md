@@ -1,6 +1,8 @@
 # SemanticCodeSearch
 
-#### Intern demo for this project. Details can be found in ***DeepCS***
+### Intern demo for this project, details can be found in ***DeepCS***.
+
+
 
 Supervisor: Rosa Filgueira
 
