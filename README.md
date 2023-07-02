@@ -1,6 +1,6 @@
 # SemanticCodeSearch
 
-### Intern demo for this project, details can be found in ***DeepCS***.
+### Intern demo for this project, details can be found in folder ***Code2code***.
 
 
 
