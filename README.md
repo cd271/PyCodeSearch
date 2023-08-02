@@ -10,7 +10,7 @@ In your virtual environment, run:
 pip install -r requirements.txt
 ```
 
-Or you can directly install in the search engine [notebook]([SemanticCodeSearch/SearchEngine/CodeSearchEngine.ipynb at main · cd271/SemanticCodeSearch (github.com)](https://github.com/cd271/SemanticCodeSearch/blob/main/SearchEngine/CodeSearchEngine.ipynb)).
+Or you can directly install in the search engine notebook.
 
 The above commands will install `cpu-only` version of the `PyTorch` package. Please refer to [PyTorch website](https://pytorch.org/get-started/locally/) for instructions on how to install other versions of `PyTorch`.
 
