@@ -1,1 +1,0 @@
-{"file": {"path": "/cs/home/cd271/Documents/Project/Examples/SemanticCodeSearch/Code2code/SearchEngine/content/keon/algorithms/docs/source/conf.py", "fileNameBase": "conf", "extension": "py"}, "dependencies": [{"from_module": "recommonmark.parser", "import": "CommonMarkParser", "type": "external", "type_element": "module"}], "is_test": false}

@@ -18,9 +18,11 @@ The above commands will install `cpu-only` version of the `PyTorch` package. Ple
 
 The Code Search Engine User Interface `CodeSearchEngine.ipynb` can be find in folder `SearchEngine`.
 
+<br/>
 
+<br/>
 
-
+<br/>
 
 Supervisor: Rosa Filgueira
 
