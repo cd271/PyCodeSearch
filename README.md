@@ -18,7 +18,7 @@ The above commands will install `cpu-only` version of the `PyTorch` package. Ple
 
 ## Directory Structure
 ```
-C:.
+PyCodeSearch:.
 │  README.md
 │  requirements.txt
 │
@@ -52,5 +52,7 @@ C:.
 ## Usage
 
 The Code Search Engine User Interface `CodeSearchEngine.ipynb` can be find in folder `notebook`, where you can find a demo with 20 search examples for both `Code-To-Code` and `Text-To-Code` paradigms.
+
+In folder `search_engine`, you can explore details implementations about both search paradigms in sub-folders. The Python file here is the library for PyCodeSearch, providing necessary functions APIs.
 
 **Notice:** our demo takes "https://github.com/keno/algorithms" as an example repository database to search, thus the searching code snippets results all come from the source code in this repository. So, the searching result maybe irrelevant whenever there is no target code snippet in the database.
